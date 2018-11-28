@@ -1,0 +1,2 @@
+# exucoin
+exucoin core development 
