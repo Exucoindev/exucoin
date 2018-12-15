@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=EXUCOIN Core
+Comment=EXUCOIN P2P Cryptocurrency
+Comment[de]=Verbinde mit dem EXUCOIN peer-to-peer Netzwerk
+Comment[fr]=EXUCOIN, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=EXUCOIN, eşten eşe kriptografik sanal para birimi
+Exec=exucoin-qt %u
+Terminal=false
+Type=Application
+Icon=exucoin128
+MimeType=x-scheme-handler/exucoin;
+Categories=Office;Finance;

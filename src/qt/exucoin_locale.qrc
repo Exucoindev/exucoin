@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/exucoin_bg.qm</file>
+        <file alias="de">locale/exucoin_de.qm</file>
+        <file alias="en">locale/exucoin_en.qm</file>
+        <file alias="es">locale/exucoin_es.qm</file>
+        <file alias="fi">locale/exucoin_fi.qm</file>
+        <file alias="fr">locale/exucoin_fr.qm</file>
+        <file alias="it">locale/exucoin_it.qm</file>
+        <file alias="ja">locale/exucoin_ja.qm</file>
+        <file alias="nl">locale/exucoin_nl.qm</file>
+        <file alias="pl">locale/exucoin_pl.qm</file>
+        <file alias="pt">locale/exucoin_pt.qm</file>
+        <file alias="ru">locale/exucoin_ru.qm</file>
+        <file alias="sk">locale/exucoin_sk.qm</file>
+        <file alias="sv">locale/exucoin_sv.qm</file>
+        <file alias="vi">locale/exucoin_vi.qm</file>
+        <file alias="zh_CN">locale/exucoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/exucoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

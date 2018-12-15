@@ -1,0 +1,22 @@
+[Unit]
+Description=EXUCOIN's distributed currency daemon
+After=network.target
+
+[Service]
+User=exucoincore
+Group=exucoincore
+
+Type=forking
+PIDFile=/var/lib/exucoind/exucoind.pid
+ExecStart=/usr/bin/exucoind -daemon -pid=/var/lib/exucoind/exucoind.pid \
+-conf=/etc/exucoincore/exucoin.conf -datadir=/var/lib/exucoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

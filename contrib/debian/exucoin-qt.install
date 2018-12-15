@@ -1,0 +1,6 @@
+usr/local/bin/exucoin-qt usr/bin
+share/pixmaps/exucoin32.xpm usr/share/pixmaps
+share/pixmaps/exucoin16.xpm usr/share/pixmaps
+share/pixmaps/exucoin128.png usr/share/pixmaps
+debian/exucoin-qt.desktop usr/share/applications
+debian/exucoin-qt.protocol usr/share/kde4/services/
